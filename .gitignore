@@ -1,2 +1,3 @@
 artifacts/bin/
 project.lock.json
+test/Test/bin/

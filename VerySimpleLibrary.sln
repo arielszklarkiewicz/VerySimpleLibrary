@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VerySimpleLibrary", "src\VerySimpleLibrary\VerySimpleLibrary.xproj", "{7BAC8C5C-D734-465D-9D17-63AC7616E54F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FFA07C17-702C-4BF1-B75A-E7FC9CF5497A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Test", "test\Test\Test.xproj", "{3DD084C5-1863-4DC3-94E2-8D4BBA14A034}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +27,16 @@ Global
 		{7BAC8C5C-D734-465D-9D17-63AC7616E54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BAC8C5C-D734-465D-9D17-63AC7616E54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BAC8C5C-D734-465D-9D17-63AC7616E54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD084C5-1863-4DC3-94E2-8D4BBA14A034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD084C5-1863-4DC3-94E2-8D4BBA14A034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD084C5-1863-4DC3-94E2-8D4BBA14A034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD084C5-1863-4DC3-94E2-8D4BBA14A034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7BAC8C5C-D734-465D-9D17-63AC7616E54F} = {C3ABCD2F-0F0F-42D8-AD4A-682D191956F1}
+		{3DD084C5-1863-4DC3-94E2-8D4BBA14A034} = {FFA07C17-702C-4BF1-B75A-E7FC9CF5497A}
 	EndGlobalSection
 EndGlobal

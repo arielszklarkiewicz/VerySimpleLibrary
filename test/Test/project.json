@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Test Class Library",
+  "authors": [ "Ariel" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "commands": { "test": "xunit.runner.dnx" },
+
+  "dependencies": {
+    "VerySimpleLibrary": "1.0.0-*",
+    "xunit": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-beta6-build191"
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}
